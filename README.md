@@ -28,7 +28,7 @@ Bu proje MVVM mimarisi şeklinde yapılmıştır
  "/></p>
  
  
- <p align="center"><img src=" https://raw.githubusercontent.com/antonygulce/h5190008antonygulce/main/mimariyapi.png "  height ="500"/></p>
+ <p align="center"><img src=" https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/mimariyapi.png "  height ="500"/></p>
  
  
  ## PROJEDE KULLANILAN TEKNOLOJİLER
