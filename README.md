@@ -33,4 +33,4 @@ Bu proje MVVM mimarisi şeklinde yapılmıştır
  
  <li><a href=" https://medium.com/gdgtekirdag/android-ile-retrofit-kullanımı-spacexdata-71a5117666d1 ">Retrofit</a></li>
  
-  <li><a href="  https://medium.com/@ecemokan/android-uygulama-geliştirenler-için-reaktif-programlama-rxjava-ve-rxandroid-856d246dd391 ">Retrofit</a></li>
+  <li><a href="  https://medium.com/@ecemokan/android-uygulama-geliştirenler-için-reaktif-programlama-rxjava-ve-rxandroid-856d246dd391 ">Rxjava</a></li>
