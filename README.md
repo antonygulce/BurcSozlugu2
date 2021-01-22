@@ -9,8 +9,10 @@ Burc Sözlüğü uygulaması sizin burcunuzun ne yansıttıgını söyler aynı 
 
 ## EKRAN GÖRÜNTÜLERİ
 
-<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png "/></p>
-<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png "/></p>
-<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png "/></p>
-<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png "/></p>
-<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png "/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/EkranGörüntüsü1.png "/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/EkranGörüntüsü2.png "/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/EkranGörüntüsü3.png "/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/EkranGörüntüsü4.png "/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/EkranGörüntüsü5.png "/></p>
+
+## PROJENİN MİMARİ YAPISI
