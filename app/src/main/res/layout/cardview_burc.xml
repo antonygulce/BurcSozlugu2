@@ -9,7 +9,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/card_padding"
+        android:layout_margin="@dimen/card_padding_aralik"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,11 +21,11 @@
 
             <ImageView
                 android:id="@+id/imageBurcLogo"
-                android:layout_width="@dimen/kapak_burc_uzunluk"
-                android:layout_height="@dimen/kapak_burc_uzunluk"
-                android:layout_marginStart="@dimen/card_padding"
-                android:layout_marginTop="@dimen/card_padding"
-                android:layout_marginBottom="@dimen/card_padding"
+                android:layout_width="@dimen/logo_burc_uzunluk"
+                android:layout_height="@dimen/logo_burc_uzunluk"
+                android:layout_marginStart="@dimen/card_padding_aralik"
+                android:layout_marginTop="@dimen/card_padding_aralik"
+                android:layout_marginBottom="@dimen/card_padding_aralik"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -37,9 +37,9 @@
                 android:id="@+id/txtBurcAdi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/card_padding"
+                android:layout_marginStart="@dimen/card_padding_aralik"
                 android:textColor="@color/design_default_color_primary"
-                android:textSize="30sp"
+                android:textSize="@dimen/txt_size_basliklar"
                 app:layout_constraintStart_toEndOf="@+id/imageBurcLogo"
                 app:layout_constraintTop_toTopOf="@+id/imageBurcLogo"
                 tools:text="KOÇ BURCU" />
@@ -48,7 +48,7 @@
                 android:id="@+id/txtTarih"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/card_padding"
+                android:layout_marginTop="@dimen/card_padding_aralik"
                 app:layout_constraintStart_toStartOf="@+id/txtBurcAdi"
                 app:layout_constraintTop_toBottomOf="@+id/txtBurcAdi"
                 tools:text="(21 Mart - 20 Nisan)" />

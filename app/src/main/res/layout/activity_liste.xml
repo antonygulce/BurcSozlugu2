@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/imgKapak"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="@dimen/kapak_burc_uzunluk"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -21,7 +21,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcvBurclar"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/kenarlara_sifirlama"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

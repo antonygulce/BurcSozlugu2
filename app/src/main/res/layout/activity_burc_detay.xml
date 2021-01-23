@@ -20,43 +20,43 @@
             android:scaleType="fitXY"
             android:id="@+id/imgKapak"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/kapak_burc_uzunluk"
             app:srcCompat="@drawable/kapak_ikizler" />
 
         <TextView
             android:id="@+id/txtBaslik"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
+            android:padding="@dimen/txt_padding"
             android:text="BAŞLIK"
-            android:textColor="@color/purple_700"
-            android:textSize="30sp"
+            android:textColor="@color/basliklar_txt"
+            android:textSize="@dimen/txt_size_basliklar"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txtDetay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
+            android:padding="@dimen/txt_padding"
             android:text="DETAY"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textColor="@color/detay_txt"
+            android:textSize="@dimen/txt_size_detay" />
 
         <TextView
             android:id="@+id/txtBaslik2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
+            android:padding="@dimen/txt_padding"
             android:text="GÜNLÜK YORUMUNUZ"
-            android:textColor="@color/purple_700"
-            android:textSize="30sp"
+            android:textColor="@color/basliklar_txt"
+            android:textSize="@dimen/txt_size_basliklar"
             android:textStyle="bold" />
 
         <WebView
             android:id="@+id/webViewGunluk"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp" />
+            android:padding="@dimen/txt_padding" />
     </LinearLayout>
 
 

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <dimen name="card_padding">16dp</dimen>
-    <dimen name="kapak_burc_uzunluk">100dp</dimen>
-
-
-
+    <dimen name="kenarlara_sifirlama">0dp</dimen>
+    <dimen name="card_padding_aralik">16dp</dimen>
+    <dimen name="kapak_burc_uzunluk">200dp</dimen>
+    <dimen name="logo_burc_uzunluk">100dp</dimen>
+    <dimen name="txt_padding">10dp</dimen>
+    <dimen name="txt_size_basliklar">30sp</dimen>
+    <dimen name="txt_size_detay">20sp</dimen>
 
 
 </resources>
