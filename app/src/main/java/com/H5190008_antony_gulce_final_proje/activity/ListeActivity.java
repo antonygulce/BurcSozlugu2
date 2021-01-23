@@ -43,9 +43,7 @@ public class ListeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_liste);
 
         init();
-        if(!isConnected(this)){
-            showCustomDialog();
-        }
+
 
 
 
@@ -57,47 +55,6 @@ public class ListeActivity extends AppCompatActivity {
 
         burclariGetir();
     }
-
-    private void showCustomDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(ListeActivity.this);
-        builder.setMessage("LÜTFEN İNTERNETE BAĞLANIN İNTERNET BAĞLANTINIZ YOK")
-                .setCancelable(false)
-                .setPositiveButton("BAĞLAN", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int i) {
-                        startActivity( new Intent(Settings.ACTION_WIFI_SETTINGS));
-                    }
-                })
-                .setNegativeButton("KAPAT", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int i) {
-
-                        finish();
-                    }
-
-                });
-
-        AlertDialog alert = builder.create();
-        alert.show();
-
-    }
-
-    private boolean isConnected(ListeActivity listeActivity) {
-
-        ConnectivityManager connectivityManager = (ConnectivityManager) listeActivity.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo wifiConn = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-        NetworkInfo mobileConn = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
-
-        if ((wifiConn != null && wifiConn.isConnected())  || (mobileConn != null && mobileConn.isConnected()))  {
-            return true;
-        }
-        else{
-            return false;
-        }
-
-
-    }
-
 
 
 
