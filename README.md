@@ -27,9 +27,7 @@ Bu proje MVC mimari yapısı şeklinde yapılmıştır.
 <p align="center"><img src="https://raw.githubusercontent.com/antonygulce/h5190008antonygulce/main/mimariyapi.png "  height ="500"/></p>
 
 
- <li><a href="https://github.com/ReactiveX/RxKotlin">RxKotlin</a></li>
  
- <p align="center"><img src=" https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/mimariyapi.png "  /></p>
  
  
  ## PROJEDE KULLANILAN TEKNOLOJİLER
