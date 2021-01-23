@@ -22,18 +22,19 @@ Burc Sözlüğü uygulaması sizin burcunuzun ne yansıttıgını söyler aynı 
 
 
 ## PROJENİN MİMARİ YAPISI
-Bu proje MVVM mimarisi şeklinde yapılmıştır.
+Bu proje MVC mimari yapısı şeklinde yapılmıştır.
 
- 
+ <li><a href="https://github.com/ReactiveX/RxKotlin">RxKotlin</a></li>
  
  <p align="center"><img src=" https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/mimariyapi.png "  /></p>
  
  
  ## PROJEDE KULLANILAN TEKNOLOJİLER
  
- <li><a href=" https://medium.com/gdgtekirdag/android-ile-retrofit-kullanımı-spacexdata-71a5117666d1 ">Retrofit</a></li>
  
-  <li><a href="  https://medium.com/@ecemokan/android-uygulama-geliştirenler-için-reaktif-programlama-rxjava-ve-rxandroid-856d246dd391 ">Rxjava</a></li>
   
-  
+  <li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
+  <li><a href="https://github.com/ReactiveX/RxKotlin">RxKotlin</a></li>
+   
+ ## AÇIK KAYNAK LİSANSI
   
