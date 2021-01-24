@@ -38,6 +38,11 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     def retrofitLibraryVersion = "2.7.0"
+//build.gradle
+    dependencies {
+        compile 'com.github.bumptech.glide:glide:3.7.0'
+
+    }
 
 
 //Retrofit Library

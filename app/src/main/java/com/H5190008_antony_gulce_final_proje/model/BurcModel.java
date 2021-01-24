@@ -4,6 +4,7 @@ package com.H5190008_antony_gulce_final_proje.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+//Model Dosyası
 public class BurcModel {
     @SerializedName("BurcAdi")
     @Expose

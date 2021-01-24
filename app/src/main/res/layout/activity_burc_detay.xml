@@ -28,8 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/txt_padding"
-            android:text="BAŞLIK"
-            android:textColor="@color/basliklar_txt"
+            android:text="@string/baslik_yazisi"
+            android:textColor="@color/basliklar_txt_renk"
             android:textSize="@dimen/txt_size_basliklar"
             android:textStyle="bold" />
 
@@ -38,8 +38,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/txt_padding"
-            android:text="DETAY"
-            android:textColor="@color/detay_txt"
+            android:text="@string/detay_yazisi"
+            android:textColor="@color/detay_txt_renk"
             android:textSize="@dimen/txt_size_detay" />
 
         <TextView
@@ -47,8 +47,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/txt_padding"
-            android:text="GÜNLÜK YORUMUNUZ"
-            android:textColor="@color/basliklar_txt"
+            android:text="@string/gunlukyorum_yazisi"
+            android:textColor="@color/basliklar_txt_renk"
             android:textSize="@dimen/txt_size_basliklar"
             android:textStyle="bold" />
 
@@ -56,7 +56,8 @@
             android:id="@+id/webViewGunluk"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="@dimen/txt_padding" />
+            android:padding="@dimen/txt_padding"
+            />
     </LinearLayout>
 
 

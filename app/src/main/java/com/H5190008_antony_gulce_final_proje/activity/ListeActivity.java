@@ -37,17 +37,12 @@ public class ListeActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
+    //voidi çağırır
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_liste);
-
         init();
-
-
-
-
-
     }
 
     private  void  init()
@@ -58,7 +53,7 @@ public class ListeActivity extends AppCompatActivity {
 
 
 
-
+//Versionları Al
     void  burclariGetir()
     {
 
@@ -74,18 +69,19 @@ public class ListeActivity extends AppCompatActivity {
                         Log.e("RETROFIT","onSubscribe : ");
                     }
 
+
                     @Override
                     public void onNext(List<BurcModel> burcList) {
                         Log.e("RETROFIT","onNext : ");
                         burclar=burcList;
                     }
-
+                    //Hata gelirse log at
                     @Override
                     public void onError(Throwable e) {
 
                         Log.e("RETROFIT","onError : " + e.getLocalizedMessage());
                     }
-
+                    //bittiğini söyler
                     @Override
                     public void onComplete()
                     {
@@ -93,15 +89,13 @@ public class ListeActivity extends AppCompatActivity {
 
                         if(burclar.size()>0) {
 
-
-
                             initRecycleView(burclar);
                         }
                     }
                 });
     }
 
-
+    //Veriler gelene akdar bekleme
     private  void  initRecycleView(List<BurcModel> burcList)
     {
         recyclerView =findViewById(R.id.rcvBurclar);
@@ -118,20 +112,18 @@ public class ListeActivity extends AppCompatActivity {
             }
         });
 
-
+// Datasını ayarlama
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         recyclerView.setAdapter(burcAdaptor);
     }
 
-
-
-
+//Diğer ekrana geçme
     private void openNextActivity(BurcModel tiklananBurc){
 
         Intent secondActivityIntent=new Intent(getApplicationContext(), BurcDetayActivity.class);
         String tiklananBurcString = ObjectUtil.burcToJsonString(tiklananBurc);
 
-        secondActivityIntent.putExtra(Constants.TIKANAN_BURC_TASINANIN_BASLIGI,tiklananBurcString);
+        secondActivityIntent.putExtra(Constants.TIKLANAN_BURC_TASINANIN_BASLIGI,tiklananBurcString);
         startActivity(secondActivityIntent);
 
 

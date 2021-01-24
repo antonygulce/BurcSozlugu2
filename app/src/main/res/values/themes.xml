@@ -3,8 +3,8 @@
     <style name="Theme.H5190008_antony_gulce_final_proje" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/brand_renk</item>
-        <item name="colorPrimaryVariant">@color/basliklar_txt</item>
-        <item name="colorOnPrimary">@color/brand_yazi</item>
+        <item name="colorPrimaryVariant">@color/basliklar_txt_renk</item>
+        <item name="colorOnPrimary">@color/brand_yazi_renk</item>
 
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>

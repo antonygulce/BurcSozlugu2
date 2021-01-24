@@ -15,6 +15,8 @@ public class BurcViewHolder extends RecyclerView.ViewHolder {
     ImageView imgBurcLogo;
     TextView txtBurcAdi;
     TextView txtTarih;
+
+    //Mouse a tıklandığında verileri getirir
     public BurcViewHolder(@NonNull View cardView,BurcAdaptor.OnItemClickListener listener) {
         super(cardView);
 
@@ -26,7 +28,6 @@ public class BurcViewHolder extends RecyclerView.ViewHolder {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
 
                 listener.onClick(getAdapterPosition());
             }

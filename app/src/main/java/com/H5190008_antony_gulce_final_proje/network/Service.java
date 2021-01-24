@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Service {
 
-
+    //Retrofit ile ilgili ayarları yap gönder
     private static Retrofit retrofit;
     private static Retrofit getRetrofit() {
 
@@ -37,6 +37,7 @@ public class Service {
 
         return okHttpClient;
     }
+    //End pointleri belirttiğimiz dosylaları ayarlıyoruz
 
     ServiceApi serviceApi;
     public ServiceApi getServiceApi() {

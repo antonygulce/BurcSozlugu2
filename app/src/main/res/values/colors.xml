@@ -2,7 +2,7 @@
 <resources>
     <color name="kalin_brand_renk">#FFBB86FC</color>
     <color name="brand_renk">#FF6200EE</color>
-    <color name="basliklar_txt">#FF3700B3</color>
-    <color name="detay_txt">#FF000000</color>
-    <color name="brand_yazi">#FFFFFFFF</color>
+    <color name="basliklar_txt_renk">#FF3700B3</color>
+    <color name="detay_txt_renk">#FF000000</color>
+    <color name="brand_yazi_renk">#FFFFFFFF</color>
 </resources>

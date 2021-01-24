@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">H5190008_antony_gulce_final_proje</string>
+    <string name="baslik_yazisi">BAŞLIK</string>
+    <string name="detay_yazisi">DETAY</string>
+    <string name="gunlukyorum_yazisi">GÜNLÜK YORUM</string>
+    <string name="ornek_burc_ismi">KOÇ BURCU</string>
+    <string name="ornek_burc_tarih">(21 Mart - 20 Nisan)</string>
 </resources>

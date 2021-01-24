@@ -22,6 +22,7 @@ public class BurcAdaptor extends RecyclerView.Adapter<BurcViewHolder> {
     Context context;
     OnItemClickListener listener;
 
+    //tıklama
     public interface OnItemClickListener {
         void onClick(int position);
     }
@@ -33,6 +34,7 @@ public class BurcAdaptor extends RecyclerView.Adapter<BurcViewHolder> {
         this.listener = listener;
     }
 
+    //Viewholderın OnCreate metodu
     @NonNull
     @Override
     public BurcViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -41,6 +43,7 @@ public class BurcAdaptor extends RecyclerView.Adapter<BurcViewHolder> {
         return new BurcViewHolder(itemView,listener);
     }
 
+    //Değerleri cardview için ön yüze aktar
     @Override
     public void onBindViewHolder(@NonNull BurcViewHolder viewHolder, int position) {
 

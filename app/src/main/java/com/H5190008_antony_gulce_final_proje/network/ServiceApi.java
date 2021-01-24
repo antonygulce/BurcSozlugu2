@@ -9,6 +9,7 @@ import java.util.List;
 import io.reactivex.Observable;
 import retrofit2.http.GET;
 
+//Json dan verileri çekiyoruz
 public interface ServiceApi {
 
     //base url

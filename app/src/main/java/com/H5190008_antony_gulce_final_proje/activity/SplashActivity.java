@@ -16,7 +16,7 @@ import android.util.Log;
 import com.H5190008_antony_gulce_final_proje.R;
 
 public class SplashActivity extends AppCompatActivity {
-
+//çağırır
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +29,7 @@ public class SplashActivity extends AppCompatActivity {
 
 
     }
+    //Dialogu gösterir
     private void showCustomDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(SplashActivity.this);
         builder.setMessage("LÜTFEN İNTERNETE BAĞLANIN İNTERNET BAĞLANTINIZ YOK")
@@ -54,8 +55,7 @@ public class SplashActivity extends AppCompatActivity {
     }
 
 
-
-
+//İnternet kontrolü
 
     private boolean isConnected(SplashActivity splashActivity) {
 
@@ -79,7 +79,7 @@ public class SplashActivity extends AppCompatActivity {
 
 
 
-
+// 3 soaniye sonra diğer ekrana geçer
 
     private void init(){
         CountDownTimer countDownTimer =new CountDownTimer(3000,1000) {
@@ -102,7 +102,7 @@ public class SplashActivity extends AppCompatActivity {
 
 
     }
-
+// 3 soaniye sonra diğer ekrana geçer
 
     private void openNextActivity(){
         Log.e("COUNTER","FİNİSH");
