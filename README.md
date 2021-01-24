@@ -37,7 +37,7 @@ Bu proje MVC mimari yapısı şeklinde yapılmıştır.
    
  ## AÇIK KAYNAK LİSANSI
   
-  Copyright 2021 Antony GÜLÇE.
+     Copyright 2021 Antony GÜLÇE.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
