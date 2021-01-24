@@ -12,7 +12,7 @@ Burc Sözlüğü uygulaması sizin burcunuzun ne yansıttıgını söyler aynı 
 
 <p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/EkranGörüntüsü1.png "  height ="500"/></p>
 
-
+<p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/EkranGörüntüsü2.png "  height ="500"/></p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/EkranGörüntüsü3.png "  height ="500" /></p>
 
@@ -24,7 +24,7 @@ Burc Sözlüğü uygulaması sizin burcunuzun ne yansıttıgını söyler aynı 
 ## PROJENİN MİMARİ YAPISI
 Bu proje MVC mimari yapısı şeklinde yapılmıştır.
 
- <li><a href="https://github.com/ReactiveX/RxKotlin">RxKotlin</a></li>
+ 
  
  <p align="center"><img src=" https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/mimariyapi.png "  /></p>
  
