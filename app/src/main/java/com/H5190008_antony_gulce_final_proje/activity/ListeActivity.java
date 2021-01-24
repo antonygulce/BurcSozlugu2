@@ -52,7 +52,6 @@ public class ListeActivity extends AppCompatActivity {
     }
 
 
-
 //Versionları Al
     void  burclariGetir()
     {
@@ -104,7 +103,7 @@ public class ListeActivity extends AppCompatActivity {
             public void onClick(int position) {
 
                 BurcModel tiklananBurc = burcList.get(position);
-                Toast.makeText(getApplicationContext(),"TIKLANAN ADI :" + tiklananBurc.getBurcAdi(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),R.string.tiklanan_burc_adi + tiklananBurc.getBurcAdi(), Toast.LENGTH_SHORT).show();
 
 
                 openNextActivity(tiklananBurc);

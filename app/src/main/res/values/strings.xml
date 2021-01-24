@@ -5,4 +5,10 @@
     <string name="gunlukyorum_yazisi">GÜNLÜK YORUM</string>
     <string name="ornek_burc_ismi">KOÇ BURCU</string>
     <string name="ornek_burc_tarih">(21 Mart - 20 Nisan)</string>
+    <string name="internet_alert_yazisi">LÜTFEN İNTERNETE BAĞLANIN İNTERNET BAĞLANTINIZ YOK</string>
+    <string name="baglan_diyalogu">BAĞLAN</string>
+    <string name="kapat_diyalogu">KAPAT</string>
+    <string name="tiklanan_burc_adi">TIKLANAN ADI</string>
+
+
 </resources>

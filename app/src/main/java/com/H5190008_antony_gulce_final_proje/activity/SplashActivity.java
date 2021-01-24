@@ -32,15 +32,15 @@ public class SplashActivity extends AppCompatActivity {
     //Dialogu gösterir
     private void showCustomDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(SplashActivity.this);
-        builder.setMessage("LÜTFEN İNTERNETE BAĞLANIN İNTERNET BAĞLANTINIZ YOK")
+        builder.setMessage(R.string.internet_alert_yazisi)
                 .setCancelable(false)
-                .setPositiveButton("BAĞLAN", new DialogInterface.OnClickListener() {
+                .setPositiveButton(R.string.baglan_diyalogu, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int i) {
                         startActivity( new Intent(Settings.ACTION_WIFI_SETTINGS));
                     }
                 })
-                .setNegativeButton("KAPAT", new DialogInterface.OnClickListener() {
+                .setNegativeButton(R.string.kapat_diyalogu, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int i) {
 
