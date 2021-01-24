@@ -25,7 +25,7 @@ Burc Sözlüğü uygulaması sizin burcunuzun ne yansıttıgını söyler aynı 
 Bu proje MVC mimari yapısı şeklinde yapılmıştır.
 
  
- <p align="center"><img src=" https://raw.githubusercontent.com/antonygulce/h5190008antonygulce/main/mimariyapi.png"  /></p>
+ <p align="center"><img src="https://raw.githubusercontent.com/antonygulce/BurcSozlugu2/master/screens/EkranGörüntüsü1.png "  height ="500"/></p>
  
  
  ## PROJEDE KULLANILAN TEKNOLOJİLER
